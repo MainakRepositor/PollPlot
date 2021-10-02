@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+  <div class="card-body">
+    <h1>Welcome To PollPlot</h1>
+    <p>Plot what you poll, Poll what you plot!</p>
+    <a class="btn btn-dark" href="{% url 'polls:index' %}">
+        View Available Polling Options</a
+      >
+  </div>
+  </div>
+{% endblock %}
